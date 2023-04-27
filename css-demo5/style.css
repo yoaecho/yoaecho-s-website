@@ -1,0 +1,51 @@
+html {
+    font-size: 24pt;
+    
+  }
+
+
+body {
+    background-color: white;
+    width: 800px;
+    font-size: 12pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+article {
+    
+    font-size: 2em;
+}
+
+p {
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  
+}
+.vertical {
+  writing-mode: vertical-rl;
+  text-underline-position: left;
+}
+
+  h1 {
+    font-size: 4em;
+    text-align: end;
+    
+
+  }
+
+  .myclass{
+    color: aqua;
+
+  }
+  p:hover {
+    color: fuchsia;
+    font-size: 10pt;
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+
+a {
+    color: blueviolet
+  }

@@ -1,0 +1,45 @@
+html {
+    font-size: 24pt;
+    
+  }
+
+
+body {
+    background-color: violet;
+    width: 800px;
+    font-size: 12pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+article {
+    
+    font-size: 2em;
+}
+
+p {
+    color: rgba(255, 0, 0, 0.5);
+    width: 50%;
+    background-color: white;
+    font-size: 10ptm;
+}
+
+  h1 {
+    font-size: 4em;
+    text-align: end;
+    
+
+  }
+
+  .myclass{
+    color: aqua;
+
+  }
+  p:hover {
+    color: fuchsia;
+    font-size: 10pt;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+a {
+    color: blueviolet
+  }

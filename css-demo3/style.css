@@ -1,0 +1,49 @@
+html {
+    font-size: 24pt;
+    
+  }
+
+
+body {
+    background-color: white
+    width: 800px;
+    font-size: 12pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+article {
+    
+    font-size: 2em;
+
+}
+
+p {
+    color: black;
+    width: 20%;
+    background-color: white;
+    font-size: 10ptm;
+   
+
+  h1 {
+    font-size: 4em;
+    text-align: end;
+    .both {
+      text-decoration-line: underline overline;
+    }
+    
+
+  }
+
+  .myclass{
+    color: aqua;
+
+  }
+  p:hover {
+    color: fuchsia;
+    font-size: 10pt;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+a {
+    color: blueviolet
+  }

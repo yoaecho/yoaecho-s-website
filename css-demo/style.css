@@ -1,0 +1,41 @@
+html {
+    font-size: 24pt;
+    
+  }
+
+
+body {
+    background-color: violet;
+    width: 800px;
+    font-size: 24pt;
+}
+
+article {
+    
+    font-size: 2em;
+}
+
+p {
+    color: rgba(255, 0, 0, 0.5);
+    width: 50%;
+    background-color: white;
+    font-size: 0.5rem;
+}
+
+  h1 {
+    font-size: 4em;
+    
+
+  }
+
+  .myclass{
+    color: aqua;
+
+  }
+  p:hover {
+    color: red;
+  }
+
+a {
+    color: blueviolet
+  }
