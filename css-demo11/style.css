@@ -1,0 +1,50 @@
+html {
+    font-size: 24pt;
+    
+  }
+
+
+body {
+
+    background-image: url(../assets/images/9801683792750_.pic.jpg);
+  background-size:cover
+    width: 400px;
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article {
+    
+    font-size: 2em;
+}
+
+p {
+  
+    font-size: 14px;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    width: 40%;
+    margin: 10px auto;
+    text-align: justify;
+  }
+  
+  .none {
+    text-justify: none;
+}
+
+  h1 {
+    font-size: 4em;
+    text-align: end;
+    
+
+  }
+
+  .myclass{
+    color: aqua;
+
+  }
+
+a {
+    color: rgb(255, 111, 27)
+  }

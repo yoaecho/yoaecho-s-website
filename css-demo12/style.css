@@ -1,0 +1,67 @@
+html {
+    font-size: 24pt;
+    
+  }
+  img {
+    position: absolute; /* 把img从文档流中拿出来 */
+    top: 100px; /* 上下定位，离上边缘100px */
+    left: 50%; /* 左右定位，居中 */
+    transform: translateX(-50%); /* 向左移自身宽度一半 */
+    }
+
+
+body {
+   
+    width: 800px;
+    font-size: 12pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+article {
+    
+    font-size: 2em;
+
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+   
+
+  h1 {
+    font-size: 4em;
+    text-align: end;
+    .both {
+      text-decoration-line: underline overline;
+    }
+    
+
+  }
+
+  .myclass{
+    color: aqua;
+
+  }
+  p:hover {
+    color: rgb(255, 0, 119);
+    font-size: 10pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+a {
+    color: blueviolet
+  }

@@ -1,0 +1,18 @@
+html {
+    font-size: 10pt;
+    
+  }
+  h1 {
+    font-size: 30px;
+    font-family:"行楷-繁"; 
+  }
+
+
+  body {
+    background-image: linear-gradient(rgb(42, 42, 42), rgb(255, 255, 255));
+      font-size: 12pt;
+      font-family:"思源宋体"; 
+font-size:12px;  
+color:rgb(83, 83, 83);  
+  }
+  

@@ -1,18 +1,20 @@
 html {
-    font-size: 24pt;
+    font-size: 10pt;
     
   }
 
 
 body {
-    background-color: violet;
+    background-color: rgb(193, 193, 193);
     width: 800px;
     font-size: 24pt;
+    cursor: url('野馆画板1.png'), default;
+
 }
 
 article {
     
-    font-size: 2em;
+    font-size: 10pt;
 }
 
 p {
@@ -23,7 +25,7 @@ p {
 }
 
   h1 {
-    font-size: 4em;
+    font-size: 15px;
     
 
   }
@@ -37,5 +39,5 @@ p {
   }
 
 a {
-    color: blueviolet
+    color: rgb(251, 255, 0)
   }

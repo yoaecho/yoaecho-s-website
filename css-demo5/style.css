@@ -8,7 +8,7 @@ body {
     background-color: white;
     width: 800px;
     font-size: 12pt;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 article {
@@ -31,6 +31,7 @@ p {
   h1 {
     font-size: 4em;
     text-align: end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 
   }

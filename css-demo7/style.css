@@ -1,0 +1,58 @@
+
+/* 动画 */
+
+.section{
+  position :relative;
+  width:100%;
+  height: 100vh;
+  overflow:hidden;
+  z-index: -999;
+}
+section::before
+{
+  content:"";
+  position:absolute;
+  top:0;
+  left :0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.scroll{
+  position:absolute;
+  width:calc(100%+400px);
+  left: -400px;
+  display:flex;
+  color:#ccc;
+  z-index: -999;
+  margin-top: 350px;
+}
+.scroll div{
+  position:absolute;
+  background:#fffb00;
+  color:rgb(0, 0, 0);
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing:0.2em;
+  white-space:nowrap;
+  animation: animate 60s linear infinite ;
+animation-delay: -60s;
+font-weight: 600;
+z-index: -999;
+}
+.scroll div :nth-child(2)
+{
+  animation: animate-two 60s linear infinite ;
+  animation-delay: -30s;
+}
+@keyframes animate
+{
+  0%
+  {
+      transform: translateX(100%);
+  }
+  100%{
+      transform: translateX(-100%);
+  }
+}
